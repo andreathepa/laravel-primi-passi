@@ -21,5 +21,6 @@
     </head>
     <body>
         {{ $hello }}
+        <a href="/">Torna alla home page</a>
     </body>
 </html>
