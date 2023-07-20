@@ -15,8 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $hello = 'Hello World';
     return view('home');
+
+    
+});
+
+Route::get('/about', function () {
+
+    $hello = 'Ecco qui il collegamento';
+
+    return view('about', compact('hello'));
 
     
 });
